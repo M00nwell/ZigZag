@@ -15,6 +15,7 @@
 		561522791D152A01007EF1E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561522771D152A01007EF1E5 /* LaunchScreen.storyboard */; };
 		561522841D152A01007EF1E5 /* ZigZagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561522831D152A01007EF1E5 /* ZigZagTests.swift */; };
 		5615228F1D152A01007EF1E5 /* ZigZagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615228E1D152A01007EF1E5 /* ZigZagUITests.swift */; };
+		569BFF4A1D1E551E00DAE0A1 /* Coin.dae in Resources */ = {isa = PBXBuildFile; fileRef = 569BFF491D1E551E00DAE0A1 /* Coin.dae */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5615228A1D152A01007EF1E5 /* ZigZagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZigZagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5615228E1D152A01007EF1E5 /* ZigZagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagUITests.swift; sourceTree = "<group>"; };
 		561522901D152A01007EF1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		569BFF491D1E551E00DAE0A1 /* Coin.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Coin.dae; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		5615226B1D152A01007EF1E5 /* ZigZag */ = {
 			isa = PBXGroup;
 			children = (
+				569BFF491D1E551E00DAE0A1 /* Coin.dae */,
 				5615226C1D152A01007EF1E5 /* AppDelegate.swift */,
 				5615226E1D152A01007EF1E5 /* art.scnassets */,
 				561522701D152A01007EF1E5 /* GameViewController.swift */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				569BFF4A1D1E551E00DAE0A1 /* Coin.dae in Resources */,
 				5615226F1D152A01007EF1E5 /* art.scnassets in Resources */,
 				561522791D152A01007EF1E5 /* LaunchScreen.storyboard in Resources */,
 				561522761D152A01007EF1E5 /* Assets.xcassets in Resources */,
@@ -490,6 +494,7 @@
 				561522951D152A01007EF1E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		561522961D152A01007EF1E5 /* Build configuration list for PBXNativeTarget "ZigZagTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +503,7 @@
 				561522981D152A01007EF1E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		561522991D152A01007EF1E5 /* Build configuration list for PBXNativeTarget "ZigZagUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +512,7 @@
 				5615229B1D152A01007EF1E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
